@@ -11,7 +11,7 @@ import { routes } from 'vue-router/auto-routes'
 const defaultRoute = {
   path: '/',
   name: 'Default',
-  component: () => import('@/pages/login.vue')
+  component: () => import('@/pages/dashboard.vue')
 }
 
 // Add a default route to the signup page
